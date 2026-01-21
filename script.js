@@ -8,7 +8,7 @@ const bulletImg = document.createElement('img')
 const audio = document.createElement('audio')
 const rabbitImg = document.createElement('img')
 const stabAudio = document.createElement('audio')
-
+audio.volume = 0.4
 let data = {
   hero: {
     xDelta: 0,
